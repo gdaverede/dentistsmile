@@ -12,7 +12,7 @@ hero:
     hero_description: Tu solución en escribanía
 
 # Contact form
-api_token: AIzaSyARyA8kPhKndE5-LLijSMW12khwc2fMpZw
+api_token:
 
 # Contact info
 contact:
