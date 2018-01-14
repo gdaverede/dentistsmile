@@ -42,14 +42,13 @@ twitter: http://twitter.com
 instagram: http://instagram.com
 youtube: http://youtube.com
 skype: skype:obaez_design?userinfo
-feed: yes
+feed: no
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2018 Escribanas.uy
 
 # Build settings
 markdown: kramdown
-remote_theme: obaez/dentistsmile
 
 exclude: [
     package.json,
