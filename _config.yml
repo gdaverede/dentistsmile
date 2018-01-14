@@ -32,8 +32,8 @@ testimonials:
 
 # Map
 map:
-    zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    zoom: 16
+    address: Ituzaingo 232, 70200 Rosario, Departamento de Colonia
     address_details: svg/min/logo.svg
 
 # Social settings
