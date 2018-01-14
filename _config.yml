@@ -49,6 +49,7 @@ copyright: © 2015 DentistSmile - All rights reserved
 
 # Build settings
 markdown: kramdown
+remote_theme: obaez/dentistsmile
 
 exclude: [
     package.json,
