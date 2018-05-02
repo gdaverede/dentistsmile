@@ -2,7 +2,7 @@
 <body data-spy="scroll" data-offset="80" data-target=".scrollspy" id="top">
     {% include svg-defs.svg %}
     <!--[if lt IE 10]>
-        <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
+        <p class="oldie">Estas utilizando un navegador obsoleto. <a href="http://browsehappy.com/">Actualiza ahora tu navegador</a> para una mejor experiencia en este sitio.</p>
     <![endif]-->
 
     {% include header.html %}
@@ -11,12 +11,31 @@
            
     {% include footer.html %}
     
-    {% if site.analytics %}
-        {% include analytics.html %}
-    {% endif %}
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARyA8kPhKndE5-LLijSMW12khwc2fMpZw"></script>
-    <script src="{{ site.baseurl }}/js/all.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARyA8kPhKndE5-LLijSMW12khwc2fMpZw"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
+    <!--<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>-->
+    <script type="text/javascript" src="{{ site.baseurl }}/js/all.min.js"></script>
+    
+    <script type="text/javascript" >
+        $('.map')
+          .gmap3({
+            center:[-34.3104592,-57.3503115],
+            zoom:16
+          })
+          .marker([
+            {
+                position:[-34.3104592,-57.3503115]
+            }
+          ])
+          .infowindow({
+            content: '<img src="https://sdaverede.github.io/escriuy/svg/min/logo.svg">'
+          })        
+          .on('click', function (marker) {
+            infowindow.open(map, marker);
+          });
+    </script>
+    
+    
 </body>
 </html>
