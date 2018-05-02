@@ -3,11 +3,11 @@ title: Escribanas.uy
 description: "Escribanas en Rosario, Colonia."
 baseurl: "/escriuy" # the subpath of your site, e.g. /blog
 url: "www.escribanas.uy" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: svg/min/logo_H.svg
 
 # Hero
 hero: 
-    hero_img: hero.jpg
+    hero_img: gallery/escri2.jpeg
     hero_title: Escribanas.uy
     hero_description: Tu solución en escribanía
 
@@ -16,29 +16,12 @@ api_token:
 
 # Contact info
 contact:
-    Teléfono: 4552 2317
-    Email: agaraturra@gmail.com
-    Dirección: Ituzaingó 541
-
-# Opening hours
-Lunes a viernes: 09:00 a 12:00 hs.
-
-# Testimonials
-testimonials:
-    testimonials_img: parallax.jpg
-
-# Map
-map:
-    zoom: 16
-    address: Ituzaingo 541, 70200 Rosario, Departamento de Colonia
-    address_details: svg/min/logo.svg
+    phone: 4552 2317
+    email: agaraturra@gmail.com
+    address1: Ituzaingó 541 esq. Cerrito
+    address2: Rosario, Colonia
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
 feed: no
 
 # Footer
